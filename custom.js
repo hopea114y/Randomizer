@@ -9,4 +9,3 @@ window.onload = function() {
 	}
 	res.innerHTML = randomNumber(1, maxNumber);
 }
-
