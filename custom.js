@@ -1,7 +1,7 @@
 window.onload = function() {
 	do {
 	var maxNumber = +prompt('Enter a last participating positive integer', '999');
-	} while (maxNumber < 0 || maxNumber == null || maxNumber == NaN);
+	} while (maxNumber < 0 || maxNumber == null || maxNumber == NaN || maxNumber == 0 || maxNumber == 1);
 	var res = document.querySelector('.container');
 
 	for(var i = 0; i < 15; i++) {
